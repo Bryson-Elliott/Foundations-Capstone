@@ -14,7 +14,8 @@ body {
 }
 
 header {
-    
+    position: sticky;
+    top: 0;
     margin-top: 20px;
     min-width: 50vw;
     display: flex;
@@ -54,7 +55,7 @@ button {
     margin: 2vw;
     border: 2vw;
     width: 50vw;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     background-image: url(https://theundefeated.com/wp-content/uploads/2017/06/nbalogo.jpg?w=1024);
 }
@@ -64,7 +65,7 @@ button {
     margin: 1vw;
     padding: 1px;
     width: 35vw;
-    height: 68vh;
+    height: 65vh;
     background-image: url(https://static.bsnsports.com/media/catalog/product/cache/1/image/5b9100356f3f238da7769a8d7038804e/1013900_a_x.jpg);
 } 
 
