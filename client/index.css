@@ -43,19 +43,24 @@ button {
     vertical-align: middle;
 }
 
-#box-1 {
-    vertical-align: left;
-    width: 50vw;
-    background-image: url(RudyGobert1.jpeg);
+/* div {
+    display: block;
+} */
+
+.box-1 {
+    padding: 1px;
+    width: 75vw;
+    height: 100vw;
+    display: flex;
+    background-image: url(https://theundefeated.com/wp-content/uploads/2017/06/nbalogo.jpg?w=1024);
 }
 
 #box-2 {
-    
+    display: flex;
     padding: 1px;
-    vertical-align: right;
-    width: 50vw;
-    height: 25vw;
-    background-image: url(nba-logo.jpeg);
+    width: 75vw;
+    height: 80vw;
+    background-image: url(https://www.google.com/aclk?sa=l&ai=DChcSEwjnsPqNjrTzAhV5c28EHfdJAfYYABApGgJqZg&sig=AOD64_1hGUsR2TWPpbd0atHe9yBMZDvDsA&adurl&ctype=5&ved=2ahUKEwiH7O2NjrTzAhXTGM0KHYN3BkgQuxd6BQgBEMED);
 } 
 
 ul {
@@ -72,6 +77,3 @@ li {
     text-decoration: line-through;
 }
   
-.hide {
-    visibility: hidden;
-}
