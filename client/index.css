@@ -8,11 +8,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(32, 32, 32);
+    /* background: lightgray; */
     font-family: sans-serif;
 }
 
-main {
+header {
     margin-top: 20px;
     min-width: 50vw;
     display: flex;
@@ -22,7 +22,7 @@ main {
     background: lightgray;
     padding: 20px;
     box-shadow: 0px 0px 10px gray;
-    background-image: linear-gradient(210deg, rgb(11, 11, 168), rgb(191, 194, 4)
+    background-image: linear-gradient(210deg, rgb(18, 18, 202), rgb(31, 21, 121)
      );
 }
 
@@ -42,6 +42,21 @@ button {
     margin-left: 20px;
     vertical-align: middle;
 }
+
+#box-1 {
+    vertical-align: left;
+    width: 50vw;
+    background-image: url(RudyGobert1.jpeg);
+}
+
+#box-2 {
+    
+    padding: 1px;
+    vertical-align: right;
+    width: 50vw;
+    height: 25vw;
+    background-image: url(nba-logo.jpeg);
+} 
 
 ul {
     font-size: 24px;
