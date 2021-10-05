@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    position: relative;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 }
 
 header {
+    
     margin-top: 20px;
     min-width: 50vw;
     display: flex;
@@ -49,18 +51,21 @@ button {
 
 .box-1 {
     padding: 1px;
-    width: 75vw;
-    height: 100vw;
+    margin: 2vw;
+    border: 2vw;
+    width: 50vw;
+    height: 80vh;
     display: flex;
     background-image: url(https://theundefeated.com/wp-content/uploads/2017/06/nbalogo.jpg?w=1024);
 }
 
-#box-2 {
+.box-2 {
     display: flex;
+    margin: 1vw;
     padding: 1px;
-    width: 75vw;
-    height: 80vw;
-    background-image: url(https://www.google.com/aclk?sa=l&ai=DChcSEwjnsPqNjrTzAhV5c28EHfdJAfYYABApGgJqZg&sig=AOD64_1hGUsR2TWPpbd0atHe9yBMZDvDsA&adurl&ctype=5&ved=2ahUKEwiH7O2NjrTzAhXTGM0KHYN3BkgQuxd6BQgBEMED);
+    width: 35vw;
+    height: 68vh;
+    background-image: url(https://static.bsnsports.com/media/catalog/product/cache/1/image/5b9100356f3f238da7769a8d7038804e/1013900_a_x.jpg);
 } 
 
 ul {
